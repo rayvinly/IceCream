@@ -15,6 +15,7 @@
 		71308AB51C1A077800A2EBEE /* IceCreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71308AB41C1A077800A2EBEE /* IceCreamUITests.swift */; };
 		71308AC31C1A082100A2EBEE /* IceCreamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71308AC21C1A082100A2EBEE /* IceCreamListViewController.swift */; };
 		71308AC51C1A091B00A2EBEE /* IceCreamStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71308AC41C1A091B00A2EBEE /* IceCreamStore.swift */; };
+		71308AC71C1A0FF400A2EBEE /* IceCreamListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71308AC61C1A0FF400A2EBEE /* IceCreamListDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		71308AB61C1A077800A2EBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71308AC21C1A082100A2EBEE /* IceCreamListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamListViewController.swift; sourceTree = "<group>"; };
 		71308AC41C1A091B00A2EBEE /* IceCreamStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamStore.swift; sourceTree = "<group>"; };
+		71308AC61C1A0FF400A2EBEE /* IceCreamListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamListDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				71308A941C1A077800A2EBEE /* AppDelegate.swift */,
 				71308AC21C1A082100A2EBEE /* IceCreamListViewController.swift */,
+				71308AC61C1A0FF400A2EBEE /* IceCreamListDataSource.swift */,
 				71308AC41C1A091B00A2EBEE /* IceCreamStore.swift */,
 				71308A981C1A077800A2EBEE /* Main.storyboard */,
 				71308A9B1C1A077800A2EBEE /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				71308AC51C1A091B00A2EBEE /* IceCreamStore.swift in Sources */,
 				71308AC31C1A082100A2EBEE /* IceCreamListViewController.swift in Sources */,
 				71308A951C1A077800A2EBEE /* AppDelegate.swift in Sources */,
+				71308AC71C1A0FF400A2EBEE /* IceCreamListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

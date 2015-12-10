@@ -10,32 +10,13 @@ import UIKit
 
 class IceCreamListViewController: UITableViewController
 {
-  let dataStore = IceCreamStore()
+  let dataSource = IceCreamListDataSource()
   
   // MARK: - View lifecycle
   
   override func viewDidLoad()
   {
     super.viewDidLoad()
-  }
-  
-  // MARK: - Table view data source
-  
-  override func numberOfSectionsInTableView(tableView: UITableView) -> Int
-  {
-    return 1
-  }
-  
-  override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-  {
-    return dataStore.allFlavors().count
-  }
-  
-  override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
-  {
-    let flavor = dataStore.allFlavors()[indexPath.row]
-    let cell = tableView.dequeueReusableCellWithIdentifier("IceCreamListCell", forIndexPath: indexPath)
-    cell.textLabel?.text = flavor
-    return cell
+    tableView.dataSource = dataSource
   }
 }
