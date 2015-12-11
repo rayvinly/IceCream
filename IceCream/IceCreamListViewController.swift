@@ -10,8 +10,6 @@ import UIKit
 
 class IceCreamListViewController: UITableViewController
 {
-  let dataSource = IceCreamListDataSource()
-  
   // MARK: - View lifecycle
   
   override func viewDidLoad()
